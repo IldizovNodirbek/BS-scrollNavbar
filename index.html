@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS-5 | scrollNavbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+         }
+
+        body {
+            background-color: blue;
+            position: relative;
+        }
+
+        #wrapperContainer {
+            width: 1300px;
+            height: 750px;
+            border-radius: 16px;
+        }
+
+        #forNavbars1 {
+            border-radius: 5px;
+        }
+
+        main {
+            overflow-y: scroll;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+   
+  <div class="container bg-white mt-3" id="wrapperContainer">
+      <div class="container-fluid mt-5">
+          <div class="row">
+              <nav class="col-md-3 d-none d-md-block sidebar mt-5">
+                  <div class="sidebar-sticky">
+                      <ul class="nav flex-column">
+                          <li class="nav-item bg-info mt-5" id="forNavbars1">
+                              <a class="nav-link text-white active" href="#scrollHome">Home</a>
+                          </li>
+                          <li class="nav-item bg-info mt-5" id="forNavbars1">
+                              <a class="nav-link text-white" href="#scrollAbout">About</a>
+                          </li>
+                          <li class="nav-item bg-info mt-5" id="forNavbars1">
+                              <a class="nav-link text-white" href="#scrollServices">Services</a>
+                          </li>
+                          <li class="nav-item bg-info mt-5" id="forNavbars1">
+                              <a class="nav-link text-white" href="#scrollContact">Contact</a>
+                          </li>
+                          <li class="nav-item bg-info mt-5" id="forNavbars1">
+                              <a class="nav-link text-white" href="#scrollNews">News</a>
+                          </li>
+                          <li class="nav-item bg-info mt-5" id="forNavbars1">
+                              <a class="nav-link text-white" href="#scrollMeet">Meet Us</a>
+                          </li>
+                      </ul>
+                  </div>
+              </nav>
+              <main role="main" class="col-md-9 mt-5">
+                  <h1 id="scrollHome">Home</h1>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt quia nobis aut maxime voluptate quisquam, quis neque voluptates praesentium quos veritatis deserunt minus, soluta voluptatibus exercitationem. Nulla ipsa minima quas laboriosam necessitatibus. Nemo iusto quas voluptatum ad sequi, commodi vero, minima facere magni, dolor voluptatem. Quam nam blanditiis sequi nobis molestias ducimus impedit temporibus excepturi voluptates totam eaque reprehenderit exercitationem, tempore numquam, consequatur soluta dolore iusto itaque sapiente vero quo cupiditate illo perferendis? Dicta reprehenderit architecto mollitia, doloribus voluptate soluta dolorum quis voluptatibus commodi sint modi debitis minima dignissimos sequi veritatis eos! Blanditiis harum, laudantium unde aut iure repudiandae beatae.
+                  </p>
+                  <img src="./Photos/dibujo-13.png" alt="svg-1" width="350px" height="350px">
+                  <h1 id="scrollAbout">About</h1>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, molestiae! Eum libero sit cupiditate doloribus distinctio reprehenderit asperiores soluta. Nihil possimus animi officiis molestiae ab, necessitatibus quis, placeat libero odio consequatur voluptatem vitae veritatis accusantium voluptatum hic autem impedit voluptas nesciunt doloremque! Adipisci quasi doloremque quaerat autem. Consequuntur mollitia rem sequi itaque reprehenderit soluta ipsum magnam perspiciatis reiciendis architecto doloribus, sit ex aperiam expedita esse asperiores neque, culpa a. Laboriosam modi unde quas fugiat ut illo perferendis amet consectetur quae perspiciatis enim iure, aspernatur provident veniam ratione, saepe numquam atque? Provident repellendus aspernatur magni neque voluptates. Quasi facilis rerum nulla!
+                  </p>
+                  <img src="./Photos/1457818403.png" alt="svg-2" width="350px" height="350px">
+                  <h1 id="scrollServices">Services</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis molestiae magnam magni error quidem nesciunt quaerat ut ad vel, doloremque qui quod voluptates amet? Ab totam tenetur saepe laborum, accusamus, distinctio fugiat officia expedita vel dolorem ex similique nisi quia quidem iure possimus! Cupiditate tenetur atque veritatis vero sequi quo neque at doloribus ut, vitae voluptatibus quas expedita alias laboriosam aliquid repudiandae aliquam. Esse nemo ea, cumque, fugiat deserunt perspiciatis asperiores similique consequuntur beatae, nostrum error accusantium molestiae sit perferendis cupiditate maxime quia ullam. Quisquam, saepe sint adipisci accusamus laudantium consequatur eligendi quibusdam, est neque ullam vitae at mollitia necessitatibus.
+                  </p>
+                  <img src="./Photos/africanprogrammer-slower-internet.png" alt="svg-3" width="350px" height="350px">
+                  <h1 id="scrollContact">Contact</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis molestiae magnam magni error quidem nesciunt quaerat ut ad vel, doloremque qui quod voluptates amet? Ab totam tenetur saepe laborum, accusamus, distinctio fugiat officia expedita vel dolorem ex similique nisi quia quidem iure possimus! Cupiditate tenetur atque veritatis vero sequi quo neque at doloribus ut, vitae voluptatibus quas expedita alias laboriosam aliquid repudiandae aliquam. Esse nemo ea, cumque, fugiat deserunt perspiciatis asperiores similique consequuntur beatae, nostrum error accusantium molestiae sit perferendis cupiditate maxime quia ullam. Quisquam, saepe sint adipisci accusamus laudantium consequatur eligendi quibusdam, est neque ullam vitae at mollitia necessitatibus.
+                  </p>
+                  <img src="./Photos/africanprogrammer.png" alt="svg-4" width="350px" height="350px">
+                  <h1 id="scrollNews">News</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis molestiae magnam magni error quidem nesciunt quaerat ut ad vel, doloremque qui quod voluptates amet? Ab totam tenetur saepe laborum, accusamus, distinctio fugiat officia expedita vel dolorem ex similique nisi quia quidem iure possimus! Cupiditate tenetur atque veritatis vero sequi quo neque at doloribus ut, vitae voluptatibus quas expedita alias laboriosam aliquid repudiandae aliquam. Esse nemo ea, cumque, fugiat deserunt perspiciatis asperiores similique consequuntur beatae, nostrum error accusantium molestiae sit perferendis cupiditate maxime quia ullam. Quisquam, saepe sint adipisci accusamus laudantium consequatur eligendi quibusdam, est neque ullam vitae at mollitia necessitatibus.
+                  </p>
+                  <img src="./Photos/computers.png" alt="svg-5" width="350px" height="350px">
+                  <h1 id="scrollMeet">Meet Us</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis molestiae magnam magni error quidem nesciunt quaerat ut ad vel, doloremque qui quod voluptates amet? Ab totam tenetur saepe laborum, accusamus, distinctio fugiat officia expedita vel dolorem ex similique nisi quia quidem iure possimus! Cupiditate tenetur atque veritatis vero sequi quo neque at doloribus ut, vitae voluptatibus quas expedita alias laboriosam aliquid repudiandae aliquam. Esse nemo ea, cumque, fugiat deserunt perspiciatis asperiores similique consequuntur beatae, nostrum error accusantium molestiae sit perferendis cupiditate maxime quia ullam. Quisquam, saepe sint adipisci accusamus laudantium consequatur eligendi quibusdam, est neque ullam vitae at mollitia necessitatibus.
+                  </p>
+                  <img src="./Photos/1457818403.png" alt="svg-6" width="350px" height="350px">
+              </main>
+          </div>
+      </div>
+    </div>
+
+</body>
+</html>
